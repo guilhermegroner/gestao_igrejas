@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.3.14" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43390,9905582523" ReportOptions.Description.Text="" ReportOptions.LastChange="43392,8989190046" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="DM.frxDBDadosUnidade" DataSetName="dsDadosUnidade"/>
+    <item DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="94,4882500000001" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxShapeView Name="Shape4" Left="1,77953" Top="0,779530000000001" Width="714,33117" Height="94,48825"/>
+      <TfrxMemoView Name="dsDadosUnidadeNOME" Left="5" Top="1,55906" Width="710,55164" Height="18,89765" DataField="NOME" DataSet="DM.frxDBDadosUnidade" DataSetName="dsDadosUnidade" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="5" HAlign="haCenter" ParentFont="False" Text="[dsDadosUnidade.&#34;NOME&#34;]"/>
+      <TfrxMemoView Name="dsDadosUnidadeENDERECO" Left="5,55906" Top="21,23624" Width="710,55164" Height="18,89765" DataSet="DM.frxDBDadosUnidade" DataSetName="dsDadosUnidade" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[dsDadosUnidade.&#34;ENDERECO&#34;], [dsDadosUnidade.&#34;ENDERECO_NUMERO&#34;] - [dsDadosUnidade.&#34;ENDERECO_BAIRRO&#34;] - [dsDadosUnidade.&#34;TELEFONE&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+          <item/>
+          <item/>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo3" Left="5,77953" Top="36,35436" Width="710,55164" Height="18,89765" DataSet="DM.frxDBDadosUnidade" DataSetName="dsDadosUnidade" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="CEP: [dsDadosUnidade.&#34;CEP&#34;] -  Cx. Postal: 19 - CNPJ: [dsDadosUnidade.&#34;CNPJ&#34;] ">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo4" Left="4,77953" Top="56,69295" Width="710,55164" Height="18,89765" DataSet="DM.frxDBDadosUnidade" DataSetName="dsDadosUnidade" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Organizada em 01/07/1954 - Pastor: Izaias Barbosa">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="733,22882" Left="0" Top="226,7718" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" RowCount="0">
+      <TfrxShapeView Name="Shape2" Left="0" Top="0" Width="718,1107" Height="24,4157638" Fill.BackColor="12632256" Frame.Typ="15"/>
+      <TfrxMemoView Name="Memo5" Left="1,77953" Top="3,77952999999999" Width="110,99723704" Height="19,2000124" Font.Charset="0" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Identificação:"/>
+      <TfrxMemoView Name="Memo10" Left="1,77953" Top="30,23624" Width="44,5228634" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Nome:"/>
+      <TfrxMemoView Name="Memo41" Left="47,44160738" Top="31,18868156" Width="445,55367358" Height="16,00001033" DataField="NOME" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;NOME&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="2,33859" Top="52,69295" Width="101,2158134" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Data de Nasc."/>
+      <TfrxMemoView Name="Memo7" Left="108,62214" Top="52,69295" Width="112,95503358" Height="16,00001033" DataField="DATA_NASCIMENTO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;DATA_NASCIMENTO&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="1,77953" Top="75,91342" Width="135,2315834" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Grau de Instrução:"/>
+      <TfrxMemoView Name="Memo9" Left="137,62214" Top="77,02362205" Width="128,07315358" Height="16,00001033" DataField="GRAU_INSTRUCAO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;GRAU_INSTRUCAO&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="269,14193" Top="75,91342" Width="74,7591034" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Profissão:"/>
+      <TfrxMemoView Name="Memo12" Left="345,98454" Top="77,02362205" Width="230,12046358" Height="16,00001033" DataField="PROFISSAO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;PROFISSAO&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="579,47279" Top="75,91342" Width="44,5228634" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Sexo:"/>
+      <TfrxMemoView Name="Memo14" Left="627,28386" Top="77,13389" Width="86,49832358" Height="16,00001033" DataField="SEXO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;SEXO&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="1,77953" Top="98,5906" Width="63,4205134" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Filiação:"/>
+      <TfrxMemoView Name="Memo16" Left="68,03154" Top="98,5906" Width="33,1842734" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Pai:"/>
+      <TfrxMemoView Name="Memo17" Left="68,03154" Top="119,48825" Width="36,9638034" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Mãe:"/>
+      <TfrxMemoView Name="Memo18" Left="103,04731" Top="99,5906" Width="611,85299358" Height="16,00001033" DataField="NOME_PAI" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;NOME_PAI&#34;]"/>
+      <TfrxMemoView Name="Memo19" Left="107,3859" Top="121,48825" Width="608,07346358" Height="16,00001033" DataField="NOME_MAE" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;NOME_MAE&#34;]"/>
+      <TfrxMemoView Name="Memo20" Left="1,77953" Top="142,16543" Width="93,6567534" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Estado Civil:"/>
+      <TfrxMemoView Name="Memo21" Left="96,26778" Top="143,94496" Width="112,95503358" Height="16,00001033" DataField="ESTADO_CIVIL" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;ESTADO_CIVIL&#34;]"/>
+      <TfrxMemoView Name="Memo22" Left="210,7718" Top="142,16543" Width="135,2315834" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Nome do Cônjuge:"/>
+      <TfrxMemoView Name="Memo23" Left="347,70099" Top="144,16543" Width="366,18354358" Height="16,00001033" DataField="NOME_CONJUGE" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;NOME_CONJUGE&#34;]"/>
+      <TfrxMemoView Name="Memo24" Left="1,77953" Top="164,84261" Width="123,8929934" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Data Casamento:"/>
+      <TfrxMemoView Name="Memo25" Left="127,06308" Top="164,84261" Width="75,1597335800001" Height="16,00001033" DataField="DATA_CASAMENTO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;DATA_CASAMENTO&#34;]"/>
+      <TfrxMemoView Name="Memo26" Left="204,88992" Top="164,84261" Width="97,4362834" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Naturalidade:"/>
+      <TfrxMemoView Name="Memo27" Left="301,58287" Top="166,62214" Width="218,78187358" Height="16,00001033" DataField="NATURALIDADE" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[dsFichaMembro.&#34;NATURALIDADE&#34;]"/>
+      <TfrxMemoView Name="Memo28" Left="523,01608" Top="164,84261" Width="108,7748734" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Nacionalidade:"/>
+      <TfrxMemoView Name="Memo29" Left="631,84292" Top="166,62214" Width="82,71879358" Height="16,00001033" DataField="NACIONALIDADE" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;NACIONALIDADE&#34;]"/>
+      <TfrxShapeView Name="Shape1" Left="0" Top="187,51979" Width="718,1107" Height="24,4157638" Fill.BackColor="12632256" Frame.Typ="15"/>
+      <TfrxMemoView Name="Memo30" Left="1,77953" Top="190,51979" Width="110,99723704" Height="19,2000124" Font.Charset="0" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Endereço:"/>
+      <TfrxMemoView Name="Memo31" Left="2" Top="213,9765" Width="74,7591034" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Endereço:"/>
+      <TfrxMemoView Name="Memo32" Left="79,84261" Top="215,08670205" Width="532,48286358" Height="16,00001033" DataField="ENDERECO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;ENDERECO&#34;]"/>
+      <TfrxMemoView Name="Memo33" Left="613,84292" Top="213,9765" Width="40,7433334" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Num:"/>
+      <TfrxMemoView Name="Memo34" Left="655,07916" Top="213,9765" Width="60,04161358" Height="16,00001033" DataField="ENDERECO_NUMERO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;ENDERECO_NUMERO&#34;]"/>
+      <TfrxMemoView Name="Memo35" Left="2" Top="233,87415" Width="52,0819234" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Bairro:"/>
+      <TfrxMemoView Name="Memo36" Left="56,84261" Top="234,98435205" Width="199,88422358" Height="16,00001033" DataField="ENDERECO_BAIRRO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;ENDERECO_BAIRRO&#34;]"/>
+      <TfrxMemoView Name="Memo37" Left="260,78757" Top="233,87415" Width="70,9795734" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Telefone:"/>
+      <TfrxMemoView Name="Memo38" Left="335,5436" Top="234,98435205" Width="120,51409358" Height="16,00001033" DataField="TELEFONE" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;TELEFONE&#34;]"/>
+      <TfrxMemoView Name="Memo39" Left="461,10266" Top="234,87415" Width="59,6409834" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Celular:"/>
+      <TfrxMemoView Name="Memo40" Left="523,85869" Top="235,98435205" Width="120,51409358" Height="16,00001033" DataField="CELULAR" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;CELULAR&#34;]"/>
+      <TfrxMemoView Name="Memo42" Left="1,77953" Top="255,55133" Width="59,6409834" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Cidade:"/>
+      <TfrxMemoView Name="Memo43" Left="64,47248" Top="257,33086" Width="313,27012358" Height="16,00001033" DataField="CIDADE" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[dsFichaMembro.&#34;CIDADE&#34;]"/>
+      <TfrxMemoView Name="Memo44" Left="380,73253" Top="255,55133" Width="29,4047434" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="UF:"/>
+      <TfrxMemoView Name="Memo45" Left="414,48856" Top="256,66153205" Width="120,51409358" Height="16,00001033" DataField="UF" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;UF&#34;]"/>
+      <TfrxMemoView Name="Memo46" Left="537,69326" Top="255,55133" Width="40,7433334" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="CEP:"/>
+      <TfrxMemoView Name="Memo47" Left="581,44929" Top="256,66153205" Width="120,51409358" Height="16,00001033" DataField="CEP" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;CEP&#34;]"/>
+      <TfrxShapeView Name="Shape3" Left="0" Top="278,22851" Width="718,1107" Height="24,4157638" Fill.BackColor="12632256" Frame.Typ="15"/>
+      <TfrxMemoView Name="Memo48" Left="1,55906" Top="282,00804" Width="179,02877704" Height="19,2000124" Font.Charset="0" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Histórico Eclesiástico:"/>
+      <TfrxMemoView Name="Memo49" Left="2" Top="304,68522" Width="173,0268834" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Igreja onde foi batizado:"/>
+      <TfrxMemoView Name="Memo50" Left="177,85838" Top="306,46475" Width="536,26239358" Height="16,00001033" DataField="IGREJA_BATISMO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[dsFichaMembro.&#34;IGREJA_BATISMO&#34;]"/>
+      <TfrxMemoView Name="Memo51" Left="1,77953" Top="324,58287" Width="154,1292334" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Pastor que o batizou:"/>
+      <TfrxMemoView Name="Memo52" Left="158,63791" Top="326,3624" Width="555,16004358" Height="16,00001033" DataField="PASTOR_BATISMO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[dsFichaMembro.&#34;PASTOR_BATISMO&#34;]"/>
+      <TfrxMemoView Name="Memo53" Left="2" Top="346,26005" Width="101,2158134" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Admitido em:"/>
+      <TfrxMemoView Name="Memo54" Left="107,28355" Top="347,26005" Width="112,95503358" Height="16,00001033" DataField="DATA_ADMISSAO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;DATA_ADMISSAO&#34;]"/>
+      <TfrxMemoView Name="Memo55" Left="222,55133" Top="346,26005" Width="123,8929934" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Modo Admissão:"/>
+      <TfrxMemoView Name="Memo56" Left="346,73253" Top="347,26005" Width="112,95503358" Height="16,00001033" DataField="MODO_ADMISSAO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;MODO_ADMISSAO&#34;]"/>
+      <TfrxMemoView Name="Memo57" Left="2,77953" Top="368,93723" Width="218,3812434" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Igrejas das quais foi membro:"/>
+      <TfrxMemoView Name="Memo58" Left="224,99227" Top="369,93723" Width="490,90803358" Height="16,00001033" DataField="IGREJAS_FOI_MEMBRO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[dsFichaMembro.&#34;IGREJAS_FOI_MEMBRO&#34;]"/>
+      <TfrxShapeView Name="Shape5" Left="0" Top="391,61441" Width="718,1107" Height="24,4157638" Fill.BackColor="12632256" Frame.Typ="15"/>
+      <TfrxMemoView Name="Memo59" Left="2,77953" Top="395,39394" Width="186,58783704" Height="19,2000124" Font.Charset="0" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Participação na Causa:"/>
+      <TfrxMemoView Name="Memo60" Left="2,77953" Top="419,85065" Width="78,5386334" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Dizimista?"/>
+      <TfrxMemoView Name="Memo61" Left="85,06308" Top="420,85065" Width="112,95503358" Height="16,00001033" DataField="DIZIMISTA" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;DIZIMISTA&#34;]"/>
+      <TfrxMemoView Name="Memo62" Left="203,09462" Top="419,85065" Width="78,5386334" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Ofertante?"/>
+      <TfrxMemoView Name="Memo63" Left="285,37817" Top="420,85065" Width="112,95503358" Height="16,00001033" DataField="OFERTANTE" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;OFERTANTE&#34;]"/>
+      <TfrxMemoView Name="Memo64" Left="2,77953" Top="442,30736" Width="233,4993634" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Função que já exerceu na Igreja:"/>
+      <TfrxMemoView Name="Memo65" Left="239,33086" Top="444,08689" Width="475,78991358" Height="16,00001033" DataField="FUNCAO_EXERCEU_IGREJA" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[dsFichaMembro.&#34;FUNCAO_EXERCEU_IGREJA&#34;]"/>
+      <TfrxMemoView Name="Memo66" Left="2,77953" Top="467,20501" Width="233,4993634" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Função que gostaria de exercer:"/>
+      <TfrxMemoView Name="Memo67" Left="239,33086" Top="468,98454" Width="475,78991358" Height="16,00001033" DataField="FUNCAO_GOSTARIA_EXERCER" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[dsFichaMembro.&#34;FUNCAO_GOSTARIA_EXERCER&#34;]"/>
+      <TfrxMemoView Name="Memo69" Left="225,7718" Top="52,53543307" Width="36,9638034" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="CPF."/>
+      <TfrxMemoView Name="Memo70" Left="267,05535" Top="52,53543307" Width="112,95503358" Height="16,00001033" DataField="CPF" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;CPF&#34;]"/>
+      <TfrxMemoView Name="Memo71" Left="384,76407" Top="52,53543307" Width="33,1842734" Height="17,60001137" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="RG."/>
+      <TfrxMemoView Name="Memo72" Left="422,04762" Top="52,53543307" Width="112,95503358" Height="16,00001033" DataField="RG" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;RG&#34;]"/>
+      <TfrxShapeView Name="Shape6" Left="0" Top="491,3389" Width="718,1107" Height="24,4157638" Fill.BackColor="12632256" Frame.Typ="15"/>
+      <TfrxMemoView Name="Memo73" Left="2,77953" Top="495,11843" Width="110,99723704" Height="19,2000124" Font.Charset="0" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Pitch="fpVariable" Font.Style="1" ParentFont="False" Text="Observações:"/>
+      <TfrxMemoView Name="dsFichaMembroOBSERVACAO" Left="1,77953" Top="520,35467" Width="714,33117" Height="188,9765" DataField="OBSERVACAO" DataSet="frxDBFichaMembro" DataSetName="dsFichaMembro" Text="[dsFichaMembro.&#34;OBSERVACAO&#34;]"/>
+    </TfrxMasterData>
+    <TfrxHeader Name="Header1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="30,23624" Left="0" Top="173,85838" Width="718,1107">
+      <TfrxMemoView Name="Memo2" Left="3,77953" Top="1,22046999999998" Width="710,55164" Height="18,89765" DataSet="DM.frxDBDadosUnidade" DataSetName="dsDadosUnidade" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Ficha de Cadastro"/>
+    </TfrxHeader>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22,67718" Left="0" Top="1020,4731" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="16,49598" Top="3,77952999999991" Width="166,29932" Height="15,11812" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Tahoma" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Geek Software - Controle Pastoral"/>
+      <TfrxLineView Name="Line44" Left="186,7953" Top="3,77952999999991" Width="0" Height="15,11812" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line46" Left="186,7953" Top="11,33859" Width="37,7953" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line47" Left="997,79592" Top="18,8976500000002" Width="124,72449" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line48" Left="997,79592" Top="11,33859" Width="0" Height="15,11812" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line49" Left="226,03154" Top="3,77952999999991" Width="0" Height="15,11812" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line50" Left="534,42548" Top="3,77952999999991" Width="0" Height="15,11812" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line51" Left="534,42548" Top="11,33859" Width="52,91342" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line52" Left="587,3389" Top="3,77952999999991" Width="0" Height="15,11812" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo68" Left="229,81107" Top="3,77952999999991" Width="298,58287" Height="15,11812" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Tahoma" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="FichaMembro.fr3"/>
+      <TfrxSysMemoView Name="SysMemo1" Left="592,42548" Top="3,77952999999991" Width="109,60637" Height="15,11812" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Tahoma" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Página [PAGE#] de [TOTALPAGES#]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>
