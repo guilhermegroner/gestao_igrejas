@@ -17,6 +17,8 @@ Ajustei ele hoje e está compilando normalmente na Versão Tokyo do Delphi.
 
 Sistema Multicamadas com DataSnap e conexão DBExpress.
 
+Usando banco de dados Firebird(Tem script com a estrutura do banco e outro com o primeiro usuário, usuário: suporte | senha: master).
+
 Utilizo alguns componentes de terceiros, tais como: DevExpress, Jedi components, TMS.
 
 O sistema mesmo não sendo robusto tem coisas bem legais, seria interessante refatorar um pouco em relação a itens procedurais.
